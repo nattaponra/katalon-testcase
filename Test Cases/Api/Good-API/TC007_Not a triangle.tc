@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a = 3 b = 2 c = 1</description>
+   <name>TC007_Not a triangle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4703d1bc-1b26-450b-ae82-c1d2ecb49dd0</testCaseGuid>
+</TestCaseEntity>

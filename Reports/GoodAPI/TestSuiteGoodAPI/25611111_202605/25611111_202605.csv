@@ -1,0 +1,90 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuiteGoodAPI,,,2561-11-11 20:26:07,2561-11-11 20:26:46,38.599s,FAILED
+,,,,,,
+Test Cases/Api/Good-API/TC001_Equilateral,,,2561-11-11 20:26:07,2561-11-11 20:26:12,4.242s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:100, value_b:100, value_c:100]))",,,2561-11-11 20:26:08,2561-11-11 20:26:09,1.481s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:09,2561-11-11 20:26:09,0.027s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:09,2561-11-11 20:26:10,0.084s,PASSED
+,,,,,,
+Test Cases/Api/Good-API/TC002_Isosceles,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:12,2561-11-11 20:26:14,2.843s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:100, value_b:100, value_c:1]))",,,2561-11-11 20:26:12,2561-11-11 20:26:12,0.541s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:12,2561-11-11 20:26:12,0.004s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:12,2561-11-11 20:26:12,0.015s,PASSED
+,,,,,,
+Test Cases/Api/Good-API/TC003_Isosceles,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:14,2561-11-11 20:26:17,2.602s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:100, value_b:1, value_c:100]))",,,2561-11-11 20:26:15,2561-11-11 20:26:15,0.354s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:15,2561-11-11 20:26:15,0.003s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:15,2561-11-11 20:26:15,0.013s,PASSED
+,,,,,,
+Test Cases/Api/Good-API/TC004_Isosceles,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:17,2561-11-11 20:26:20,2.925s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:1, value_b:100, value_c:100]))",,,2561-11-11 20:26:17,2561-11-11 20:26:18,0.645s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:18,2561-11-11 20:26:18,0.003s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:18,2561-11-11 20:26:18,0.012s,PASSED
+,,,,,,
+Test Cases/Api/Good-API/TC005_Not a triangle,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:20,2561-11-11 20:26:23,2.706s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:1, value_b:2, value_c:3]))",,,2561-11-11 20:26:20,2561-11-11 20:26:21,0.500s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:21,2561-11-11 20:26:21,0.002s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:21,2561-11-11 20:26:21,0.016s,PASSED
+,,,,,,
+Test Cases/Api/Good-API/TC006_Not a triangle,,a = 2 b = 1 c = 3,2561-11-11 20:26:23,2561-11-11 20:26:25,2.556s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:2, value_b:1, value_c:3]))",,,2561-11-11 20:26:23,2561-11-11 20:26:23,0.295s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:23,2561-11-11 20:26:23,0.002s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:23,2561-11-11 20:26:23,0.015s,PASSED
+,,,,,,
+Test Cases/Api/Good-API/TC007_Not a triangle,,a = 3 b = 2 c = 1,2561-11-11 20:26:25,2561-11-11 20:26:28,2.465s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:3, value_b:2, value_c:1]))",,,2561-11-11 20:26:25,2561-11-11 20:26:26,0.213s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:26,2561-11-11 20:26:26,0.003s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:26,2561-11-11 20:26:26,0.016s,PASSED
+,,,,,,
+Test Cases/Api/Good-API/TC008_Scalene,,a = 201 b = 200 c = 200,2561-11-11 20:26:28,2561-11-11 20:26:30,2.450s,PASSED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:5, value_b:4, value_c:3]))",,,2561-11-11 20:26:28,2561-11-11 20:26:28,0.219s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:28,2561-11-11 20:26:28,0.003s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:28,2561-11-11 20:26:28,0.016s,PASSED
+,,,,,,
+Test Cases/Api/Good-API/TC009_Out of range,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:30,2561-11-11 20:26:33,2.463s,FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:0, value_b:100, value_c:100]))",,,2561-11-11 20:26:30,2561-11-11 20:26:31,0.231s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:31,2561-11-11 20:26:31,0.002s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:31,2561-11-11 20:26:31,0.033s,FAILED
+,,,,,,
+Test Cases/Api/Good-API/TC010_Out of range,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:33,2561-11-11 20:26:35,2.635s,FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:100, value_b:0, value_c:100]))",,,2561-11-11 20:26:33,2561-11-11 20:26:33,0.367s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:33,2561-11-11 20:26:33,0.004s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:33,2561-11-11 20:26:33,0.025s,FAILED
+,,,,,,
+Test Cases/Api/Good-API/TC011_Out of range,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:35,2561-11-11 20:26:38,2.576s,FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:100, value_b:100, value_c:0]))",,,2561-11-11 20:26:35,2561-11-11 20:26:36,0.380s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:36,2561-11-11 20:26:36,0.004s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:36,2561-11-11 20:26:36,0.018s,FAILED
+,,,,,,
+Test Cases/Api/Good-API/TC012_Out of range,,a = 201 b = 200 c = 200,2561-11-11 20:26:38,2561-11-11 20:26:40,2.509s,FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:201, value_b:100, value_c:100]))",,,2561-11-11 20:26:38,2561-11-11 20:26:38,0.296s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:38,2561-11-11 20:26:38,0.001s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:38,2561-11-11 20:26:38,0.019s,FAILED
+,,,,,,
+Test Cases/Api/Good-API/TC013_Out of range,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:40,2561-11-11 20:26:43,2.517s,FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:100, value_b:201, value_c:100]))",,,2561-11-11 20:26:40,2561-11-11 20:26:41,0.309s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:41,2561-11-11 20:26:41,0.001s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:41,2561-11-11 20:26:41,0.016s,FAILED
+,,,,,,
+Test Cases/Api/Good-API/TC014_Out of range,,"a = 100
+b = 100
+c = 100",2561-11-11 20:26:43,2561-11-11 20:26:45,2.640s,FAILED
+"Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:100, value_b:100, value_c:201]))",,,2561-11-11 20:26:43,2561-11-11 20:26:43,0.379s,PASSED
+verifyResponseStatusCode,,,2561-11-11 20:26:43,2561-11-11 20:26:43,0.000s,PASSED
+verifyElementPropertyValue,,,2561-11-11 20:26:43,2561-11-11 20:26:43,0.022s,FAILED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a = 201 b = 200 c = 200</description>
+   <name>TC008_Scalene</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f41f2167-4320-4606-ae5d-5ba28112fd01</testCaseGuid>
+</TestCaseEntity>

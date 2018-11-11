@@ -1,0 +1,12 @@
+1
+00:00:00,160 --> 00:00:00,161
+1. Statement - response = com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequest(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(TriangleServiceGoodAPI, [value_a:100, value_b:100, value_c:0]))
+
+2
+00:00:00,539 --> 00:00:00,540
+5. verifyResponseStatusCode
+
+3
+00:00:00,544 --> 00:00:00,544
+9. verifyElementPropertyValue
+

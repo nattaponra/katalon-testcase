@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>a = 201 b = 200 c = 200</description>
+   <name>TC012_Out of range</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc340f86-deb5-42ef-af7e-53d964442e15</testCaseGuid>
+</TestCaseEntity>
